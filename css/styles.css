@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+hr {
+  border: 10px solid rgb(124, 124, 124);
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.img-container {
+  background-image: url(../images/computer-cover.jpg);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.inner-container {
+  text-align: left;
+  left: 14em;
+  position: absolute;
+  width: 80%;
+  color: black;
+  height: auto;
+  margin-top: 200px;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.stitle {
+  color: rgb(36, 130, 207);
+  font-size: 1.4em;
+}
+
+#about {
+  height: 50px;
+}
+
+.heading {
+  font-family: 'Nanum Gothic', sans-serif;
+  height: 20px;
+  /* position: relative;
+  display: inline-block;
+  font-weight: 300; */
+}
+
+.aboutMeInfo {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container {
+  height: 50px;
+  margin-top: 5em;
+}
+
+#skill {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.skillLogo {
+  width: 160px;
+  height: 160px;
+}
